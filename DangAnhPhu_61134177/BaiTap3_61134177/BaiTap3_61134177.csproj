@@ -162,6 +162,7 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\NhanVien_61134177\Index.cshtml" />
     <Content Include="Views\NhanVien_61134177\Confirm.cshtml" />
+    <Content Include="Views\NhanVien_61134177\TrangChu.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

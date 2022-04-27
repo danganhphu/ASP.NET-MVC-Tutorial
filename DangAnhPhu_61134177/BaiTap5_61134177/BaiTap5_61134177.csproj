@@ -120,24 +120,26 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Controllers\BannerController.cs" />
+    <Compile Include="Controllers\AnhPhu_61134177Controller.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\EmpModel.cs" />
+    <Compile Include="Models\MailModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Banner.txt" />
+    <Content Include="banner.txt" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\styleAdmin.css" />
+    <Content Include="emp.txt" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="Images\clock420.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
@@ -159,13 +161,17 @@
       <DependentUpon>Web.config</DependentUpon>
     </Content>
     <Content Include="Views\Web.config" />
-    <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\_LayoutAdmin.cshtml" />
-    <Content Include="Views\Banner\ChangeBanner.cshtml" />
+    <Content Include="Views\AnhPhu_61134177\Index.cshtml" />
+    <Content Include="Views\AnhPhu_61134177\Default.cshtml" />
+    <Content Include="Views\AnhPhu_61134177\SendMail.cshtml" />
+    <Content Include="Views\AnhPhu_61134177\Confirm.cshtml" />
+    <Content Include="Views\AnhPhu_61134177\RegisterEmp.cshtml" />
+    <Content Include="Views\AnhPhu_61134177\ChangeBanner.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
+    <Folder Include="Images\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
