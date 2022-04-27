@@ -81,7 +81,7 @@ namespace BaiTap5_61134177.Controllers
             string postedFileName = System.IO.Path.GetFileName(banner.FileName);
             var path = Server.MapPath("/Images/" + postedFileName);
             banner.SaveAs(path);
-            string fSave = Server.MapPath("/banner.txt");
+            string fSave = Server.MapPath("/Banner.txt");
             System.IO.File.WriteAllText(fSave, postedFileName);
             return View();
         }

@@ -1,5 +1,5 @@
 ﻿@{
-    var path = Server.MapPath("/banner.txt");
+    var path = Server.MapPath("/Banner.txt");
     var fileImage = System.IO.File.ReadAllText(path);
     ViewBag.image = "/Images/" + fileImage;
 }
@@ -17,14 +17,14 @@
     <div id="banner"><img src=@ViewBag.image /></div>
     <div id="menu">
         <div>
-            @Html.ActionLink("TRANG CHỦ", "Default", "/Duy_61133539/Default", htmlAttributes: new
+            @Html.ActionLink("TRANG CHỦ", "Default", "/AnhPhu_61134177/Default", htmlAttributes: new
            { @class = "a" }) &nbsp;|&nbsp;
-            @Html.ActionLink("ĐĂNG KÝ", "RegisterEmp", "Duy_61133539/RegisterEmp",
+            @Html.ActionLink("ĐĂNG KÝ", "RegisterEmp", "AnhPhu_61134177/RegisterEmp",
            new { @class = "a" })&nbsp;|&nbsp;
-            @Html.ActionLink("GỬI EMAIL", "SendMail", "/Duy_61133539/SendMail", new
+            @Html.ActionLink("GỬI EMAIL", "SendMail", "/AnhPhu_61134177/SendMail", new
            { @class = "a" }) &nbsp;|&nbsp;
             @Html.ActionLink("THAY ĐỔI BANNER", "ChangeBanner",
-           "Duy_61133539/ChangeBanner", new { @class = "a" })
+           "AnhPhu_61134177/ChangeBanner", new { @class = "a" })
             <hr style="margin-top:0px;" />
         </div>
     </div>
